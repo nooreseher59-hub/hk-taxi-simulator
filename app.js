@@ -1,42 +1,38 @@
-const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/test_3cIeVeeVz4yOaV345cgEg00"; 
+const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/test_3cIeVeeVz4yOaV345cgEg00h";
 
 let quizDataPool = [];
 let quizActiveIndex = 0;
 let userAnswersTrack = []; 
 
 window.addEventListener('load', async () => {
-    // 1. Initialize Clerk SDK
     if (window.Clerk) {
-        await Clerk.load();
+        await window.Clerk.load();
 
-        if (Clerk.user) {
-            // User is signed in -> Validate subscription metadata
-            const isPaidMember = Clerk.user.publicMetadata?.isPaid === true;
+        if (window.Clerk.user) {
+            const isPaidMember = window.Clerk.user.publicMetadata?.isPaid === true;
 
             if (isPaidMember) {
                 document.getElementById('auth-container').style.display = 'none';
                 document.getElementById('paywall-container').style.display = 'none';
                 document.getElementById('app-container').style.display = 'block';
 
-                Clerk.mountUserButton(document.getElementById('user-button'));
+                window.Clerk.mountUserButton(document.getElementById('user-button'));
                 bootUpQuizEngine();
             } else {
-                // Logged in, but hasn't paid
+                // Logged in but hasn't paid -> show paywall page
                 document.getElementById('auth-container').style.display = 'none';
                 document.getElementById('paywall-container').style.display = 'block';
-                Clerk.mountUserButton(document.getElementById('paywall-user-button'));
+                window.Clerk.mountUserButton(document.getElementById('paywall-user-button'));
             }
         } else {
-            // Not signed in
-            document.getElementById('auth-container').style.display = 'block';
-            Clerk.mountSignIn(document.getElementById('sign-in-button-wrapper'));
+            // Not signed in -> automatically pop up the login modal immediately
+            window.Clerk.openSignIn();
         }
     }
 });
 
 function redirectToStripe() {
-    // Redirect logged in user to Stripe Checkout with their Clerk User ID attached
-    const userId = Clerk.user.id;
+    const userId = window.Clerk.user ? window.Clerk.user.id : '';
     window.location.href = `${STRIPE_PAYMENT_LINK}?client_reference_id=${userId}`;
 }
 
