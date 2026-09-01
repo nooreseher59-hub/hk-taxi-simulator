@@ -2,11 +2,14 @@ const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/test_3cIeVeeVz4yOaV345cgEg00
 
 let quizDataPool = [];
 let quizActiveIndex = 0;
-let userAnswersTrack = []; 
+let userAnswersTrack = [];
 
 // Global trigger for manual button clicks
-function triggerClerkSignIn() {
+async function triggerClerkSignIn() {
     if (window.Clerk) {
+        if (!window.Clerk.loaded) {
+            await window.Clerk.load();
+        }
         window.Clerk.openSignIn();
     } else {
         alert("Authentication engine is still loading. Please wait a second and try again.");
