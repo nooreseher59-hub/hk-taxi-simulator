@@ -37,15 +37,20 @@ window.addEventListener('load', async () => {
             
             window.Clerk.mountUserButton(document.getElementById('paywall-user-button'));
         }
-    } else {
-        // Not signed in -> display auth screen & render embedded login form
-        document.getElementById('auth-container').style.display = 'block';
-        document.getElementById('paywall-container').style.display = 'none';
-        document.getElementById('app-container').style.display = 'none';
+} else {
+            // Not signed in -> display auth screen
+            document.getElementById('auth-container').style.display = 'block';
+            document.getElementById('paywall-container').style.display = 'none';
+            document.getElementById('app-container').style.display = 'none';
 
-        // Mount the sign-in UI directly into the page container
-        window.Clerk.mountSignIn(document.getElementById('sign-in-button-wrapper'));
-    }
+            const container = document.getElementById('sign-in-button-wrapper');
+            try {
+                window.Clerk.mountSignIn(container);
+            } catch (e) {
+                console.log("Using modal fallback");
+                window.Clerk.openSignIn();
+            }
+        }
 });
 
 // --- QUIZ ENGINE FUNCTIONS ---

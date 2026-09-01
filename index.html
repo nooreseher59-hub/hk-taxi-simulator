@@ -17,12 +17,16 @@
 </head>
 <body>
 
-  <!-- PUBLIC SCREEN: Displayed to Unauthenticated Users -->
-  <div id="auth-container" class="app-container" style="text-align: center; padding: 40px 20px;">
+<!-- PUBLIC SCREEN: Displayed to Unauthenticated Users -->
+<div id="auth-container" class="app-container" style="text-align: center; padding: 40px 20px;">
     <h2>HK Taxi Exam Simulator</h2>
     <p style="color: #94a3b8; margin-bottom: 24px;">Please sign in or register to access the exam portal.</p>
-    <div id="sign-in-button-wrapper"></div>
-  </div>
+    <div id="sign-in-button-wrapper" style="min-height: 50px; display: flex; justify-content: center; align-items: center;">
+        <button onclick="window.Clerk.openSignIn()" class="nav-action-btn primary-btn" style="padding: 12px 28px; font-size: 16px; cursor: pointer; border-radius: 8px;">
+            Sign In / Register
+        </button>
+    </div>
+</div>
 
   <!-- PAYWALL SCREEN: Displayed to Logged-in Users Without an Active License -->
   <div id="paywall-container" class="app-container" style="display: none; text-align: center; padding: 40px 20px;">
