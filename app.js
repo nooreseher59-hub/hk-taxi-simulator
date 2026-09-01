@@ -5,7 +5,7 @@ let quizActiveIndex = 0;
 let userAnswersTrack = []; 
 
 window.addEventListener('load', async () => {
-    // Poll for Clerk in case the CDN script takes a second to register
+    // Poll for Clerk SDK script readiness
     let attempts = 0;
     while (!window.Clerk && attempts < 20) {
         await new Promise(resolve => setTimeout(resolve, 100));
@@ -13,7 +13,7 @@ window.addEventListener('load', async () => {
     }
 
     if (!window.Clerk) {
-        console.error("Clerk SDK script failed to load from CDN.");
+        console.error("Clerk SDK failed to load.");
         return;
     }
 
@@ -30,15 +30,21 @@ window.addEventListener('load', async () => {
             window.Clerk.mountUserButton(document.getElementById('user-button'));
             bootUpQuizEngine();
         } else {
+            // Signed in but unpaid -> display paywall screen
             document.getElementById('auth-container').style.display = 'none';
             document.getElementById('paywall-container').style.display = 'block';
             document.getElementById('app-container').style.display = 'none';
+            
             window.Clerk.mountUserButton(document.getElementById('paywall-user-button'));
         }
     } else {
-        document.getElementById('app-container').style.display = 'none';
+        // Not signed in -> display auth screen & render embedded login form
+        document.getElementById('auth-container').style.display = 'block';
         document.getElementById('paywall-container').style.display = 'none';
-        window.Clerk.openSignIn();
+        document.getElementById('app-container').style.display = 'none';
+
+        // Mount the sign-in UI directly into the page container
+        window.Clerk.mountSignIn(document.getElementById('sign-in-button-wrapper'));
     }
 });
 
