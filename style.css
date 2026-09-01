@@ -1,0 +1,279 @@
+:root {
+    --bg-main: #0b0f19;
+    --card-surface: #131b2e;
+    --border-idle: #1e293b;
+    --text-main: #f8fafc;
+    --text-dim: #64748b;
+    --taxi-yellow: #facc15;
+    --success-green: #10b981;
+    --danger-red: #ef4444;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 480px;
+}
+
+h2 {
+    color: var(--taxi-yellow);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* PREMIUM HIGHWAY TRACK RUNWAY CONTAINER */
+.track-wrapper {
+    background: #090d16;
+    border: 1px solid var(--border-idle);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.zone-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.runway-strip {
+    height: 8px;
+    background: #1e293b;
+    border-radius: 4px;
+    position: relative;
+}
+
+.runway-progress-fill {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, transparent, rgba(250, 204, 21, 0.4));
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+
+.taxi-sprite {
+    position: absolute;
+    top: -8px;
+    left: 0%;
+    font-size: 20px;
+    /* 🔄 FLIP CAR TO FACE RIGHT: scaleX(-1) flips horizontally, and we keep the transition */
+    transform: scaleX(-1); 
+    transition: left 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 10;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}
+
+
+/* METRIC COUNTER ROW LAYOUT */
+.counters-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.counter-box {
+    background: var(--card-surface);
+    border: 1px solid var(--border-idle);
+    border-radius: 10px;
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.counter-box p {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+}
+
+.counter-box span {
+    font-size: 20px;
+    font-weight: 800;
+    display: block;
+    margin-top: 6px;
+}
+
+#correct-ans-label { color: var(--success-green); }
+#incorrect-ans-label { color: var(--danger-red); }
+#skipped-ans-label { color: #38bdf8; } /* Bright light blue for skips */
+
+/* EXAM CARD CONTAINER */
+.exam-terminal-card {
+    background: var(--card-surface);
+    border: 1px solid #1e293b;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.part-title-tag {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--taxi-yellow);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.meta-index-label {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+}
+
+.question-text-area {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    color: var(--text-main);
+}
+
+.options-wrapper-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.choice-row-btn {
+    width: 100%;
+    text-align: left;
+    padding: 14px 16px;
+    background: #192239;
+    border: 1px solid #263554;
+    border-radius: 12px;
+    color: var(--text-main);
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.2s ease;
+}
+
+.choice-badge {
+    background: #243253;
+    color: var(--text-dim);
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* HIGH FIDELITY COLOR STATES */
+.choice-row-btn.success-accent {
+    background: rgba(16, 185, 129, 0.12) !important;
+    border-color: var(--success-green) !important;
+    color: #4ade80 !important;
+}
+.choice-row-btn.success-accent .choice-badge {
+    background: var(--success-green) !important;
+    color: #fff !important;
+}
+
+.choice-row-btn.danger-accent {
+    background: rgba(239, 68, 68, 0.12) !important;
+    border-color: var(--danger-red) !important;
+    color: #f87171 !important;
+}
+.choice-row-btn.danger-accent .choice-badge {
+    background: var(--danger-red) !important;
+    color: #fff !important;
+}
+
+/* EXPLANATION BOX */
+.explanation-box {
+    margin-top: 20px;
+    padding: 14px;
+    background: #090d16;
+    border-left: 4px solid var(--taxi-yellow);
+    border-radius: 0 8px 8px 0;
+}
+.explanation-box.success-border { border-left-color: var(--success-green); }
+.explanation-box.danger-border { border-left-color: var(--danger-red); }
+
+.explanation-status {
+    margin: 0 0 6px 0;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.explanation-body {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #94a3b8;
+}
+
+/* NAVIGATION DUAL CONFIGURATION */
+.hub-navigation-bar {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reset-trigger-link {
+    color: var(--text-dim);
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-buttons-group {
+    display: flex;
+    gap: 8px;
+}
+
+.nav-action-btn {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background: var(--taxi-yellow);
+    color: #0b0f19;
+}
+
+.secondary-btn {
+    background: #1e293b;
+    color: var(--text-main);
+    border: 1px solid #334155;
+}
+
+.nav-action-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}

@@ -1,0 +1,1498 @@
+[
+  {
+    "number": 1,
+    "question": "What role do taxis and ride-hailing vehicles play within the broader public transport system?",
+    "options": {
+      "A": "A primary, trunk-line transport role",
+      "B": "A completely independent and isolated transport role",
+      "C": "A supplementary role to meet passengers’ needs",
+      "D": "A government-subsidized social welfare role"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 2,
+    "question": "What is required to legally provide passenger services for hire or reward using a taxi?",
+    "options": {
+      "A": "A ride-hailing vehicle permit",
+      "B": "A valid taxi licence",
+      "C": "A private car registration document",
+      "D": "A fleet operator certificate"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 3,
+    "question": "Who is legally permitted to hold a taxi licence?",
+    "options": {
+      "A": "Only registered taxi-driver unions",
+      "B": "Only companies registered in Hong Kong",
+      "C": "Only individuals who pass a fleet exam",
+      "D": "Either individuals or companies"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "number": 4,
+    "question": "Taxi licences are categorised into which of the following three types?",
+    "options": {
+      "A": "Urban taxis, New Territories taxis, and Lantau taxis licences",
+      "B": "Kowloon taxis, Hong Kong Island taxis, and Outlying Islands taxis licences",
+      "C": "General taxis, Fleet taxis, and Private taxis licences",
+      "D": "First-class taxis, Second-class taxis, and Third-class taxis licences"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 5,
+    "question": "Who is officially the registered owner of a taxi?",
+    "options": {
+      "A": "The Transport Department",
+      "B": "The holder of the taxi licence",
+      "C": "The rentee-driver who operates the vehicle",
+      "D": "The Hong Kong Government"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 6,
+    "question": "Which of the following correctly lists the primary categories of participants that make up the taxi industry?",
+    "options": {
+      "A": "Fleet owners, platform operators, and private drivers",
+      "B": "Rentee-drivers, owner-drivers, and renter-owners",
+      "C": "Corporate licensees, independent contractors, and government operators",
+      "D": "Urban licensees, rural licensees, and island licensees"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 7,
+    "question": "How is a \"rentee-driver\" defined within the taxi industry?",
+    "options": {
+      "A": "A driver who owns the taxi and leases it to a company",
+      "B": "A driver who only leases the taxi to others and does not drive",
+      "C": "A driver who rents a taxi from a taxi owner",
+      "D": "A driver who is hired directly by the Transport Department"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 8,
+    "question": "How is an \"owner-driver\" defined within the taxi industry?",
+    "options": {
+      "A": "An individual who owns the taxi but never drives it under any circumstance",
+      "B": "An individual who acts as both the owner and driver, leasing the taxi to rentee-drivers part of the time",
+      "C": "An individual who leases multiple taxis from different corporate owners",
+      "D": "A driver who operates a fleet taxi but has no ownership rights"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 9,
+    "question": "How do taxi owners generally lease out their vehicles to others for driving?",
+    "options": {
+      "A": "Through intermediary platforms licensed by the government",
+      "B": "By reaching agreements directly with the hirers",
+      "C": "By submitting a lease application to the Transport Department for each shift",
+      "D": "Under standard terms dictated directly by the Commissioner"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 10,
+    "question": "How is a \"renter-owner\" defined in the taxi industry context?",
+    "options": {
+      "A": "An owner who only leases taxis to rentee-drivers and does not drive the taxis themselves",
+      "B": "A driver who rents a taxi and then subleases it to other drivers",
+      "C": "A registered company that operates ride-hailing platforms",
+      "D": "An owner who drives the taxi full-time without ever leasing it out"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 11,
+    "question": "What was the Government's primary purpose in introducing the \"taxi fleet regime\"?",
+    "options": {
+      "A": "To replace all individual taxi licences with corporate ones",
+      "B": "To encourage professional fleet management and improve taxi service quality",
+      "C": "To standardise taxi body paint to a single colour across Hong Kong",
+      "D": "To eliminate the need for taxi licences entirely"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 12,
+    "question": "To form a fleet under the taxi fleet regime, existing taxi owners must gather taxis and apply to which authority for a licence?",
+    "options": {
+      "A": "The Commissioner for Transport",
+      "B": "The Hong Kong Legislative Council",
+      "C": "The Transport Department",
+      "D": "The Hong Kong Police Force"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 13,
+    "question": "Which of the following is true regarding the relationship between the taxi fleet licence and existing taxi licences?",
+    "options": {
+      "A": "The fleet licence replaces all existing individual taxi licences.",
+      "B": "The taxi fleet licence does not replace existing taxi licences, nor is it mandatory to operate a taxi business.",
+      "C": "The fleet licence is only required for New Territories and Lantau taxis.",
+      "D": "A taxi business can only operate if it possesses a fleet licence."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 14,
+    "question": "What registration status must a taxi fleet licensee hold?",
+    "options": {
+      "A": "Must be a multinational conglomerate",
+      "B": "Must be a company registered in Hong Kong",
+      "C": "Must be an individual registered owner of at least ten taxis",
+      "D": "Must be a non-profit cooperative registered in mainland China"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 15,
+    "question": "Which of the following represents a correct pair of vehicle and driver requirements for providing ride-hailing passenger services?",
+    "options": {
+      "A": "Private car with a fleet licence; driver with an urban taxi licence",
+      "B": "Private car with a valid ride-hailing vehicle permit; driver with a ride-hailing vehicle driving permit",
+      "C": "Government vehicle with a private permit; driver with a standard commercial license",
+      "D": "Fleet taxi with a fleet licence; driver with an owner-driver permit"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 16,
+    "question": "Through what channel must a ride-hailing passenger service be booked?",
+    "options": {
+      "A": "Directly with the driver via telephone",
+      "B": "Through any registered taxi call center",
+      "C": "Through a ride-hailing platform holding a valid ride-hailing service licence",
+      "D": "Through the Transport Department's official booking hotline"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 17,
+    "question": "Under the \"owner-driver requirement\" for ride-hailing services, how must the vehicle be registered and driven?",
+    "options": {
+      "A": "Registered under a licensed company's name and driven by any hired employee",
+      "B": "Registered under an individual’s name and can only be driven by the registered owner of that vehicle",
+      "C": "Registered under a fleet partnership and driven by any member of the partnership",
+      "D": "Registered under a non-profit association and driven by licensed volunteers"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 18,
+    "question": "What are the requirements for the roof sign of a general taxi?",
+    "options": {
+      "A": "It must display \"HK-TAXI\" and be illuminated at all times the vehicle is in motion.",
+      "B": "It must display \"TAXI\" and be illuminated during the hours of darkness when the taxi is available for hire.",
+      "C": "It must display \"TAXICAB\" and be illuminated only when a passenger is inside the vehicle.",
+      "D": "It must display \"的士\" and be illuminated only on rainy days."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 19,
+    "question": "What markings must be shown on the left and right sides of every general taxi?",
+    "options": {
+      "A": "The English words \"TAXI\" and the Chinese characters \"的士\"",
+      "B": "The English words \"TAXI\" and the Chinese characters \"出租車\"",
+      "C": "The English words \"HIRE\" and the Chinese characters \"的士\"",
+      "D": "The English words \"CAB\" and the registered licence number"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 20,
+    "question": "What are the color and placement specifications of the seating capacity plate for general taxis?",
+    "options": {
+      "A": "Red surface with white lettering, displayed on the left side doors",
+      "B": "White on a green surface, displayed on the front and on the back of the vehicle",
+      "C": "Green on a white surface, displayed on the front windshield only",
+      "D": "Black on a yellow surface, displayed on the rear bumper only"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 21,
+    "question": "Which body paint colours correspond to the respective permitted operating areas of urban, New Territories, and Lantau taxis?",
+    "options": {
+      "A": "Blue for urban, green for New Territories, red for Lantau",
+      "B": "Red for urban, green for New Territories, blue for Lantau",
+      "C": "Red for urban, yellow for New Territories, blue for Lantau",
+      "D": "White for urban, green for New Territories, blue for Lantau"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 22,
+    "question": "Who designs the livery and markings for fleet taxis under the taxi fleet regime?",
+    "options": {
+      "A": "The Commissioner for Transport independently",
+      "B": "The Transport Department without consulting the licensees",
+      "C": "The taxi fleet licensees (subject to approval by the Transport Department)",
+      "D": "The Hong Kong Tourism Board"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 23,
+    "question": "What identifier must all fleet taxis display on the front windshield to help passengers easily identify them?",
+    "options": {
+      "A": "A Fleet Taxi Plate",
+      "B": "A Taxi Fleet Certificate",
+      "C": "A valid taxi licence copy",
+      "D": "A Transport Department registration card"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 24,
+    "question": "Where must Fleet Taxi Plates be displayed, and how is their background colour determined?",
+    "options": {
+      "A": "Only on the front windshield; background color is always white.",
+      "B": "At the front and rear of the vehicle body; background color corresponds to the scope of the permitted operating area.",
+      "C": "On the left and right doors; background color corresponds to the passenger capacity.",
+      "D": "On the roof sign; background color is always green."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 25,
+    "question": "What is the background colour of a Fleet Taxi Plate for a New Territories Fleet Taxi?",
+    "options": {
+      "A": "Red",
+      "B": "Green",
+      "C": "Blue",
+      "D": "White"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 26,
+    "question": "What prominent identifier must a ride-hailing vehicle display, and who issues it?",
+    "options": {
+      "A": "A Fleet Certificate, issued by the fleet licensee",
+      "B": "A ride-hailing vehicle certificate (Vehicle Certificate), issued by the Transport Department",
+      "C": "A green seating capacity plate, issued by the Commissioner for Transport",
+      "D": "A platform dispatch card, issued by the licensed ride-hailing platform"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 27,
+    "question": "Who specifies the exact position and manner in which the Vehicle Certificate must be displayed on a ride-hailing vehicle?",
+    "options": {
+      "A": "The registered individual owner of the vehicle",
+      "B": "The licensed ride-hailing platform operator",
+      "C": "The Commissioner for Transport",
+      "D": "The Hong Kong Police Force"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 28,
+    "question": "Is it legal to display the Vehicle Certificate when a ride-hailing vehicle is used for private purposes (not passenger services)?",
+    "options": {
+      "A": "No, it must be removed immediately, or the owner will be fined.",
+      "B": "Yes, displaying the Vehicle Certificate on the car does not contravene the law under these circumstances.",
+      "C": "Yes, but only during the hours of darkness.",
+      "D": "No, it can only be displayed when a booking is actively dispatched."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 29,
+    "question": "What is the maximum passenger seating capacity of a taxi?",
+    "options": {
+      "A": "Four",
+      "B": "Five",
+      "C": "Six",
+      "D": "Seven"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 30,
+    "question": "How are taxis permitted to pick up passengers?",
+    "options": {
+      "A": "Only on street by direct hail",
+      "B": "Only through pre-booked telephone orders",
+      "C": "Directly on the street, or by accepting bookings through ride-hailing channels",
+      "D": "Only at designated cross-harbour taxi stands"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 31,
+    "question": "Under normal circumstances, when is a taxi driver permitted to stop to pick up or set down passengers?",
+    "options": {
+      "A": "Anywhere on the road, regardless of traffic signs.",
+      "B": "Only at a taxi stand of the specified type, when requested by a passenger, or when hailed by an intending passenger.",
+      "C": "Only in non-restricted zones and general lay-bys.",
+      "D": "Only at cross-harbour taxi stands designated by the Police."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 32,
+    "question": "Who has the authority to designate road areas for taxi stopping hire and cross-harbour taxi stands?",
+    "options": {
+      "A": "The Commissioner",
+      "B": "The Transport Department Fleet Inspector",
+      "C": "The registered company licensee",
+      "D": "The owner-driver association"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 33,
+    "question": "Which of the following is NOT listed as a location where the Government has designated fleet taxi stopping places?",
+    "options": {
+      "A": "The airport",
+      "B": "Kai Tak Cruise Terminal",
+      "C": "West Kowloon Station of the Guangzhou-Shenzhen-Hong Kong Express Rail Link",
+      "D": "Ocean Park"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "number": 34,
+    "question": "What is the primary purpose of the designated fleet taxi stopping places?",
+    "options": {
+      "A": "To allow general taxis to queue for any street-hail passenger",
+      "B": "To facilitate fleet taxis in picking up passengers with pre-booked trips",
+      "C": "To serve as maintenance workshops for fleet taxi companies",
+      "D": "To allow ride-hailing vehicles to park and charge their batteries"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 35,
+    "question": "How are fleet taxi stopping places visually identified?",
+    "options": {
+      "A": "Delineated with road marking and indicated with traffic signs",
+      "B": "Marked by blue street paint and electronic light displays",
+      "C": "Indicated by the presence of a Transport Department inspector only",
+      "D": "Delineated by physical barriers and security gates"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 36,
+    "question": "How are ride-hailing vehicles classified, and what is their maximum passenger seating capacity?",
+    "options": {
+      "A": "Classified as a commercial public minibus; maximum capacity is six",
+      "B": "Classified as a private car; maximum capacity is seven",
+      "C": "Classified as a personalised luxury coach; maximum capacity is eight",
+      "D": "Classified as a general taxi; maximum capacity is six"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 37,
+    "question": "Can ride-hailing vehicles directly pick up passengers on the street?",
+    "options": {
+      "A": "Yes, they can stop for any passenger hailing from the pavement.",
+      "B": "No, they cannot directly pick up passengers on street; they can only accept orders booked and dispatched through platforms holding a valid ride-hailing service licence.",
+      "C": "Yes, but only in designated taxi stands.",
+      "D": "No, they are only allowed to pick up passengers at the airport and Disneyland."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 38,
+    "question": "What general regulations regarding pick-up and drop-off zones must ride-hailing vehicles comply with?",
+    "options": {
+      "A": "They may stop anywhere a taxi is permitted to stop.",
+      "B": "They are only allowed to stop inside cross-harbour taxi stands.",
+      "C": "They must comply with general regulations applicable to private cars, such as only picking up or dropping off passengers in non-restricted zones and general lay-bys.",
+      "D": "They can only pick up passengers on closed roads."
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 39,
+    "question": "Where are ride-hailing vehicles strictly prohibited from providing ride-hailing passenger services?",
+    "options": {
+      "A": "At the airport or Kai Tak Cruise Terminal",
+      "B": "On closed roads, restricted zones, or prohibited areas",
+      "C": "In the New Territories and Lantau operating areas",
+      "D": "On any street within Hong Kong's urban areas"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 40,
+    "question": "Which specific regulation and schedule of the Road Traffic (Public Service Vehicles) Regulations (Cap. 374D) govern the standard fare rates for hiring a taxi in Hong Kong?",
+    "options": {
+      "A": "Regulation 38",
+      "B": "Schedule 5",
+      "C": "Schedule 7",
+      "D": "Regulation 11"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 41,
+    "question": "Under Cap. 374D, what is the standard method for determining the fare displayed to a taxi passenger?",
+    "options": {
+      "A": "Calculated retrospectively by the platform operator",
+      "B": "Based on the charge displayed on the taxi meter",
+      "C": "Negotiated directly with the driver based on traffic conditions",
+      "D": "Determined by a flat rate designated for each district"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 42,
+    "question": "Under Regulation 38 of Cap. 374D, registered taxi owners may hire out a taxi on a time-rental basis. What is the legal term for this type of hire?",
+    "options": {
+      "A": "Leased driving",
+      "B": "Fleet hire",
+      "C": "Chartering",
+      "D": "Private dispatch"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 43,
+    "question": "How is the rental rate for \"chartering\" a taxi legally determined?",
+    "options": {
+      "A": "It is strictly based on the exact mileage run during the rental period.",
+      "B": "It is based on the duration for which the taxi is hired or on other terms agreed upon with the hirer.",
+      "C": "It is predetermined by a standard cap set by the Transport Department.",
+      "D": "It is based on a fixed hourly rate plus a mandatory platform surcharge."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 44,
+    "question": "Under what circumstances are fleet taxi licensees permitted to customise fares under the fleet regime?",
+    "options": {
+      "A": "For all street-hailing trips",
+      "B": "Only for cross-harbour trips",
+      "C": "For pre-arranged journeys",
+      "D": "Only during designated inclement weather"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 45,
+    "question": "In what two ways can fleet licensees customise fares for pre-arranged journeys?",
+    "options": {
+      "A": "An hourly duration rate or a distance surcharge",
+      "B": "A flat platform service fee or a government-mandated peak surcharge",
+      "C": "A booking fee on top of the metered fare, or a lump-sum fare agreed prior to the start of the journey",
+      "D": "A vehicle category upgrade fee or a passenger luggage surcharge"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 46,
+    "question": "What fare table must fleet taxis use when picking up passengers through street-hailing trips?",
+    "options": {
+      "A": "A platform-customised street-hail fare table",
+      "B": "The same fare table as general taxis (Schedule 5 to Cap. 374D)",
+      "C": "A flat rate table approved by the taxi fleet association",
+      "D": "A table calculated based on the driver's years of experience"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 47,
+    "question": "What is the primary condition under which a licensed platform may set its own fares for ride-hailing vehicles?",
+    "options": {
+      "A": "Fares must be cheaper than the metered rate of urban taxis.",
+      "B": "Fares must be approved by the Transport Department before each shift.",
+      "C": "Passengers must be informed of the fare arrangements before the start of a journey.",
+      "D": "Fares can only be charged via a linked bank transfer."
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 48,
+    "question": "What authority does the Government hold regarding the fare arrangements of ride-hailing vehicles?",
+    "options": {
+      "A": "The Government has no power to intervene in private platform fares.",
+      "B": "The Government has the power to regulate fare arrangements where necessary.",
+      "C": "The Government must set a universal fixed rate for all ride-hailing platforms.",
+      "D": "The Government regulates ride-hailing fares only if cash is used as payment."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 49,
+    "question": "Starting from 1 April 2026, what are taxi drivers required to provide to passengers in addition to cash payment?",
+    "options": {
+      "A": "A credit card swipe terminal only",
+      "B": "At least two means of electronic payment (one QR code and one non-QR code)",
+      "C": "An electronic invoicing service sent via email",
+      "D": "A government-integrated mobile wallet system"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 50,
+    "question": "Who determines which specific electronic payment methods a taxi driver will offer?",
+    "options": {
+      "A": "The Transport Department",
+      "B": "The registered owner of the taxi fleet",
+      "C": "The individual taxi drivers, according to their operational needs",
+      "D": "The licensed payment platform operator"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 51,
+    "question": "How are fares for ride-hailing vehicles typically settled by passengers?",
+    "options": {
+      "A": "By paying cash to the driver at the end of the journey",
+      "B": "By using electronic payment means chosen by licensed platforms, such as deduction via a linked credit card or e-wallet",
+      "C": "By scanning a QR code provided by the driver's personal account",
+      "D": "By sending a bank transfer to the Transport Department"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 52,
+    "question": "What is the present statutory requirement regarding receipt printing devices in general taxis?",
+    "options": {
+      "A": "They are optional and only required if the driver elects to print receipts.",
+      "B": "A receipt printing device must be installed in every taxi.",
+      "C": "They are only required for fleet taxis, not general taxis.",
+      "D": "They are only required if the vehicle operates in the urban area."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 53,
+    "question": "If a taxi's receipt printing device is not in proper working order, how must the driver issue a fare receipt to a requesting passenger?",
+    "options": {
+      "A": "By writing the fare on a blank sheet of paper",
+      "B": "By completing a pre-printed form in manuscript (handwritten)",
+      "C": "By sending a SMS receipt from their personal mobile device",
+      "D": "By directing the passenger to contact the Transport Department"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 54,
+    "question": "If passengers hail a taxi through ride-hailing channels, how can they usually obtain their receipt?",
+    "options": {
+      "A": "They must request a handwritten receipt from the driver.",
+      "B": "They can usually download an electronic receipt via the trip history in the mobile application.",
+      "C": "They must request a receipt to be mailed by the taxi owner.",
+      "D": "They must scan a QR code displayed on the taxi meter."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 55,
+    "question": "What is the receipt requirement for licensed platforms providing ride-hailing services (private cars) upon completion of a journey?",
+    "options": {
+      "A": "They must mail a physical paper receipt within 14 working days.",
+      "B": "They are required to issue a trip receipt stating clearly the specific information of the trip.",
+      "C": "They must provide a receipt only if the fare exceeds a specified amount.",
+      "D": "They are exempt from issuing receipts if payments are made digitally."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 56,
+    "question": "What two items must anyone authorised to drive a taxi hold?",
+    "options": {
+      "A": "A heavy goods vehicle licence and an employee badge",
+      "B": "A valid taxi driving licence and a taxi driver identity plate",
+      "C": "A fleet operator card and a private car registration document",
+      "D": "A commercial vehicle permit and a government-issued facial recognition certificate"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 57,
+    "question": "What must a taxi driver do with their taxi driver identity plate when providing passenger services, and why?",
+    "options": {
+      "A": "Store it safely in their personal wallet to prevent theft",
+      "B": "Display it on the front windshield only when operating on closed roads",
+      "C": "Display it inside the vehicle so passengers and law enforcement officers can verify their identity",
+      "D": "Affix it to the rear license plate to assist traffic cameras"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 58,
+    "question": "How must drivers of ride-hailing services verify their identity before and during operation?",
+    "options": {
+      "A": "By presenting a physical paper certificate at platform checkpoints",
+      "B": "By undergoing various procedures (such as facial recognition) as required by licensed platforms",
+      "C": "By displaying a physical identity plate inside their private car",
+      "D": "By submitting a signature dynamically on a tablet before every trip"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 59,
+    "question": "What specific driver details must a licensed ride-hailing platform provide to a passenger when confirming a booking?",
+    "options": {
+      "A": "The driver's personal contact number and home district",
+      "B": "The driver's vehicle registration documents and insurance details",
+      "C": "The driver's photo and relevant information, such as the driver's name",
+      "D": "The driver's driving history and years of platform service"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 60,
+    "question": "How many taxi-driver-related offences are covered under the Taxi-Driver-Offence Points (TDOP) system?",
+    "options": {
+      "A": "8",
+      "B": "10",
+      "C": "11",
+      "D": "15"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 61,
+    "question": "How are the 11 offences under the TDOP system categorised and assigned points based on their seriousness?",
+    "options": {
+      "A": "Two layers assigned with 10 and 5 points respectively",
+      "B": "Three layers assigned with 10, 5 and 3 points respectively",
+      "C": "Three layers assigned with 15, 10 and 5 points respectively",
+      "D": "Four layers assigned with 10, 7, 5 and 3 points respectively"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 62,
+    "question": "Under what circumstances is a taxi driver liable to be disqualified from driving a taxi under the TDOP system?",
+    "options": {
+      "A": "Incurring 10 or more points within a 1-year period",
+      "B": "Incurring 12 or more points within a 2-year period",
+      "C": "Incurring 15 or more points within a 2-year period",
+      "D": "Incurring 20 or more points within a 3-year period"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 63,
+    "question": "What is the disqualification period for a taxi driver's first disqualification under the TDOP system?",
+    "options": {
+      "A": "Three months",
+      "B": "Six months",
+      "C": "Nine months",
+      "D": "One year"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 64,
+    "question": "What is the disqualification period for each subsequent disqualification under the TDOP system?",
+    "options": {
+      "A": "Three months",
+      "B": "Six months",
+      "C": "Nine months",
+      "D": "One year"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 65,
+    "question": "Under which specific Ordinance is a taxi driver disqualified under the TDOP system?",
+    "options": {
+      "A": "Road Traffic (Public Service Vehicles) Regulations (Cap. 374D)",
+      "B": "Taxi-Driver-Offence Points Ordinance (Cap. 647)",
+      "C": "Road Traffic (Driving-offence Points) Ordinance (Cap. 375)",
+      "D": "Motor Vehicles Insurance Ordinance (Cap. 272)"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 66,
+    "question": "What is the consequence of being disqualified under Cap. 647 on a person's eligibility to apply for a ride-hailing vehicle driving permit?",
+    "options": {
+      "A": "They can apply immediately but must pay a higher registration fee.",
+      "B": "They will not be eligible to apply during the period of disqualification.",
+      "C": "They are permanently barred from applying for a permit.",
+      "D": "They are eligible to apply only if they obtain written approval from a fleet licensee."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 67,
+    "question": "What happens to an active ride-hailing vehicle driving permit if the holder is disqualified from driving a taxi under the Taxi-Driver-Offence Points Ordinance (Cap. 647)?",
+    "options": {
+      "A": "The permit is permanently cancelled.",
+      "B": "The permit is temporarily suspended during that disqualification period.",
+      "C": "The permit remains fully active for private car use only.",
+      "D": "The permit is transferred to the platform company."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 68,
+    "question": "If a ride-hailing permit holder is disqualified under the Road Traffic (Driving-offence Points) Ordinance (Cap. 375), what is the status of their ride-hailing vehicle driving permit?",
+    "options": {
+      "A": "It remains active unless the disqualification exceeds 12 months.",
+      "B": "It shall be of no effect so long as the disqualification continues in force (whether obtained before or during that period).",
+      "C": "It is immediately cancelled and cannot be reinstated.",
+      "D": "It is temporarily suspended only if the offences were committed while carrying a passenger."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 69,
+    "question": "What event automatically triggers the cancellation of a ride-hailing vehicle driving permit?",
+    "options": {
+      "A": "Receiving more than 5 driving-offence points under Cap. 375",
+      "B": "The cancellation of the holder’s full driving licence to drive a private car or light goods vehicle",
+      "C": "A driver changing platforms twice within a calendar year",
+      "D": "A failure to pass facial recognition during three consecutive logins"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 70,
+    "question": "What are the minimum tread depth and breadth requirements for tyres during a pre-driving vehicle inspection?",
+    "options": {
+      "A": "At least 0.5 mm in depth throughout at least 1/2 of the breadth of the tread",
+      "B": "At least 1 mm in depth throughout at least 1/2 of the breadth of the tread",
+      "C": "At least 1 mm in depth throughout at least 3/4 of the breadth of the tread and round the entire outer circumference of the tyre",
+      "D": "At least 1.5 mm in depth throughout the entire breadth of the tread"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 71,
+    "question": "What must a driver do regarding wheel nuts/bolts after changing wheels or tyres?",
+    "options": {
+      "A": "Lubricate them with oil to prevent rust",
+      "B": "Tighten them to the vehicle manufacturer’s recommended torque",
+      "C": "Hand-tighten them until they are snug",
+      "D": "Have them certified by the Transport Department within 48 hours"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 72,
+    "question": "Which of the following is NOT explicitly listed as a component whose secure closing/fastening must be checked before driving?",
+    "options": {
+      "A": "LPG filling caps",
+      "B": "Charging port covers",
+      "C": "Exhaust silencer clips",
+      "D": "Engine and luggage compartment hoods"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 73,
+    "question": "What is the required standard for windshield wiper blades during a pre-driving inspection?",
+    "options": {
+      "A": "They must be replaced every six months.",
+      "B": "They must not be cracked or excessively worn.",
+      "C": "They must be treated with rain repellent before departure.",
+      "D": "They must be approved by the platform operator."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 74,
+    "question": "Which of the following correctly lists the components of the lighting system that must be operating normally and clean before departure?",
+    "options": {
+      "A": "Headlights, fog lamps, license plate lamps, and cabin lights",
+      "B": "Front lamps, headlights and aims, rear lamps, stop lamps, and direction indicators",
+      "C": "High beams, reversing lamps, hazard warning lamps, and mirror lamps",
+      "D": "Main beam headlights, side indicator lamps, and emergency beacons"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 75,
+    "question": "What three types of leakages must drivers verify do NOT exist before driving?",
+    "options": {
+      "A": "Coolant, windscreen fluid, and battery acid leakages",
+      "B": "Transmission fluid, gear oil, and power steering fluid leakages",
+      "C": "Lubricating oil, brake fluid, and fuel or LPG leakages",
+      "D": "Water, suspension fluid, and refrigerant leakages"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 76,
+    "question": "Why is overloading a vehicle prohibited before departure?",
+    "options": {
+      "A": "It automatically cancels the ride-hailing vehicle permit.",
+      "B": "It can affect the performance and handling of the vehicle, including steering and braking.",
+      "C": "It triggers an immediate 5-point penalty under Cap. 375.",
+      "D": "It interferes with the Global Navigation Satellite System (GNSS) signal."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 77,
+    "question": "What three components make up the legally mandated \"journey recording system\" for all Hong Kong taxis?",
+    "options": {
+      "A": "Speedometer, alcohol breathalyser, and GPS logger",
+      "B": "In-vehicle camera, dash camera, and Global Navigation Satellite System (GNSS)",
+      "C": "Platform booking terminal, receipt printer, and e-payment terminal",
+      "D": "Facial recognition device, driver alert monitor, and route plotter"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 78,
+    "question": "What specific video, audio, and data details must the taxi journey recording system capture?",
+    "options": {
+      "A": "Passenger identity cards, speedometer levels, and passenger weight",
+      "B": "Video and audio inside the taxi cabin, front and rear views outside the taxi, and data on the taxi's location",
+      "C": "Road toll history, payment card details, and engine diagnostics data",
+      "D": "Driver's steering wheel inputs, brake fluid pressure, and shift durations"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 79,
+    "question": "Who is legally permitted to install or modify the taxi journey recording system?",
+    "options": {
+      "A": "Registered taxi owners or drivers",
+      "B": "Licensed ride-hailing platform technicians",
+      "C": "An authorised installer only",
+      "D": "Any mechanic holding a valid private car license"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 80,
+    "question": "Once the journey recording system requirement takes effect, what are the driver's direct responsibilities?",
+    "options": {
+      "A": "Ensure the system functions normally, keep the in-vehicle camera unobstructed, and display clear notices inside the vehicle",
+      "B": "Manually activate and deactivate the camera for every individual trip",
+      "C": "Download and store the recordings on a personal drive daily",
+      "D": "Calibrate the system’s location sensors after each passenger trip"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 81,
+    "question": "What additional safety system inside the vehicle cabin must operate normally before driving a fleet taxi specifically?",
+    "options": {
+      "A": "The automated receipt printing device",
+      "B": "The driver monitoring system",
+      "C": "The facial recognition e-payment terminal",
+      "D": "The time-rental chartering calculator"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 82,
+    "question": "What driving precaution must drivers take when operating in adverse weather such as heavy rain or fog?",
+    "options": {
+      "A": "Turn off headlights to prevent glare",
+      "B": "Drive exclusively on the hard shoulder",
+      "C": "Maintain a safe distance from the vehicle in front",
+      "D": "Disable the driver monitoring system to prevent warnings"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 83,
+    "question": "What is a driver's legal obligation regarding pedestrians at a zebra crossing?",
+    "options": {
+      "A": "Sound the horn to warn them to stay on the pavement",
+      "B": "Give way only if there is no traffic behind the vehicle",
+      "C": "Give way to pedestrians crossing or waiting to cross, and stop and give way if a pedestrian has already stepped onto the crossing",
+      "D": "Maintain a safe speed and drive past if they are on the opposite side of the road"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 84,
+    "question": "In the event of a vehicle breakdown or emergency, what is the very first priority for the driver?",
+    "options": {
+      "A": "Inspect the tyres for damages or loose wheel nuts",
+      "B": "Contact the licensed platform operator immediately",
+      "C": "Prioritise the safety of himself/herself and his/her passengers, and turn on the hazard warning lights immediately",
+      "D": "Exit the vehicle to check the exhaust pipe for abnormal smoke"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 85,
+    "question": "If a broken-down vehicle cannot be moved off the roadway, under what conditions should the driver and passengers remain inside?",
+    "options": {
+      "A": "If the weather is clear and they are waiting for a platform replacement vehicle",
+      "B": "Unless they are certain they can safely get clear of the roadway and have a safe place (such as behind crash barriers) to wait for help",
+      "C": "If the journey recording system continues to record audio",
+      "D": "Unless they have already turned on the hazard warning lights"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 86,
+    "question": "If a driver has exited a broken-down vehicle, where are they strictly instructed NOT to stand?",
+    "options": {
+      "A": "Behind crash barriers",
+      "B": "Clear of the roadway entirely",
+      "C": "On the carriageway, or in front of or behind the vehicle",
+      "D": "Inside a designated lay-by"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 87,
+    "question": "Which of the following lists locations where picking up or dropping off passengers is strictly prohibited due to danger or obstruction?",
+    "options": {
+      "A": "Pedestrian crossings, road bends, and junctions",
+      "B": "Boundary control points, lay-bys, and airport terminals",
+      "C": "Non-restricted zones and taxi stands",
+      "D": "Fleet taxi stopping places and Disneyland drop-off points"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "number": 88,
+    "question": "Before opening a vehicle door to let passengers board or alight, what two actions must a driver ensure are completed?",
+    "options": {
+      "A": "The hazard warning lights are on and the engine is switched off",
+      "B": "The vehicle has come to a complete stop and the parking brake is applied firmly",
+      "C": "The journey recording system is paused and doors are unlocked",
+      "D": "The passenger capacity plate is checked and mirrors are adjusted"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 89,
+    "question": "What two final checks must a driver perform in the vehicle cabin before closing the doors and moving off?",
+    "options": {
+      "A": "Ensure that passengers are wearing seatbelts and have linked their e-wallets",
+      "B": "Check that the driver monitoring system is active and mirrors are adjusted",
+      "C": "Ensure all passengers have safely boarded or alighted, and make sure no personal belongings have been left behind",
+      "D": "Check that the in-vehicle camera is unobstructed and the receipt printer has paper"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 90,
+    "question": "What specific checks must a driver perform regarding the engine operation sound and exhaust pipes before departure?",
+    "options": {
+      "A": "Ensure the engine sound is completely silent and exhaust emissions are zero.",
+      "B": "Ensure the engine operation sound (if applicable) is normal, and exhaust pipes (if applicable) show no abnormal smoke.",
+      "C": "Verify that the exhaust pipes are warm to the touch and the sound is below 80 decibels.",
+      "D": "Ensure that the catalytic converter is fully heated and the exhaust sound is deep."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 91,
+    "question": "Who has the legal authority to announce the effective date for the mandatory installation of journey recording systems in Hong Kong taxis?",
+    "options": {
+      "A": "The individual fleet operator licensees",
+      "B": "The Commissioner for Transport independently",
+      "C": "The Government",
+      "D": "The authorized installers association"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 92,
+    "question": "Where must clear notices be displayed inside a taxi once the journey recording system requirement takes effect, and what must they inform passengers of?",
+    "options": {
+      "A": "On the taximeter; that location data is being shared with the platform.",
+      "B": "In prominent locations inside the vehicle; that the in-vehicle camera is recording.",
+      "C": "On the passenger doors; that their audio is being recorded for commercial purposes.",
+      "D": "On the rear seat headrests; that facial recognition is active."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 93,
+    "question": "What is the specific requirement regarding vehicle certificates for ride-hailing vehicles when providing ride-hailing passenger services?",
+    "options": {
+      "A": "They must be kept in the glove compartment and shown only upon request.",
+      "B": "They must be displayed in the location and manner specified by the Commissioner for Transport.",
+      "C": "They must be affixed to the rear window glass.",
+      "D": "They must be laminated and kept on the dashboard at all times."
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 94,
+    "question": "What must drivers look well ahead at all times and be aware of while driving?",
+    "options": {
+      "A": "GPS route updates and electronic speed cameras",
+      "B": "Passenger actions in the rear-view mirror",
+      "C": "The surrounding road conditions",
+      "D": "The dashboard voltage indicators"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 95,
+    "question": "Why must drivers pay special attention to \"blind spots\" while driving?",
+    "options": {
+      "A": "To comply with fleet licensee guidelines",
+      "B": "To prevent accidents",
+      "C": "To maintain a safe distance from the vehicle in front",
+      "D": "To locate pedestrian crossings"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 96,
+    "question": "What final check should a driver perform before driving and reversing?",
+    "options": {
+      "A": "Calibrate the journey recording system and reset the trip meter",
+      "B": "Check the fuel or LPG level in the dashboard",
+      "C": "Use the rear-view mirrors or other monitoring devices and look around to observe the road conditions",
+      "D": "Sound the horn twice to warn pedestrians"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 97,
+    "question": "What standard of courtesy and attitude must drivers maintain towards other road users?",
+    "options": {
+      "A": "A strict business relationship",
+      "B": "A proper driving attitude and be courteous",
+      "C": "Give priority only to other commercial vehicles",
+      "D": "Limit interactions to hand signals"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 98,
+    "question": "In the event of a vehicle breakdown or emergency, what are the three specific safe locations onto which a driver should get the vehicle if possible?",
+    "options": {
+      "A": "A public car park, an alleyway, or a pavement",
+      "B": "A lay-by, hard shoulder, or hard strip",
+      "C": "A taxi stand, a cross-harbour tunnel entrance, or a bus stop",
+      "D": "A closed road, a restricted zone, or a pedestrian crossing"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 99,
+    "question": "If a driver has exited a broken-down vehicle, what critical warning does the text highlight regarding passing traffic?",
+    "options": {
+      "A": "Keep passenger belongings inside the vehicle",
+      "B": "Maintain the hazard lights on the highest setting",
+      "C": "Never forget the danger of passing traffic",
+      "D": "Stand exactly in front of or behind the vehicle to guide help"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 100,
+    "question": "Under what performance condition should a driver attempt to operate a taxi or ride-hailing vehicle?",
+    "options": {
+      "A": "Only when their shift is officially authorized by the platform",
+      "B": "Only when they are confident it can be done safely and are familiar with the vehicle’s performance",
+      "C": "Only when they have completed at least 100 hours of driving",
+      "D": "Only when the journey recording system is fully activated"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 101,
+    "question": "Which of the following represents a physical inspection item that must be verified as undamaged or secured before entering the vehicle cabin?",
+    "options": {
+      "A": "The taximeter’s internal wire seals are intact",
+      "B": "The windshield washer reservoir is filled to the top",
+      "C": "Window glass is free from damage and driving mirrors are secured",
+      "D": "All seat belts are pre-buckled in the rear seats"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 102,
+    "question": "Which of the following lists the complete set of fuel, energy, and fluid levels that must be verified as sufficient prior to departure?",
+    "options": {
+      "A": "Fuel/LPG/battery power, windscreen washer fluid, and transmission oil",
+      "B": "Fuel / LPG / battery power, brake fluid, lubricating oil (if any) and coolant (if any)",
+      "C": "Petrol, steering fluid, clutch fluid, and refrigerant gas",
+      "D": "Diesel, battery voltage, engine oil, and suspension fluid"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 103,
+    "question": "What is the exact requirement regarding the driver’s field of vision before departure?",
+    "options": {
+      "A": "There must be no blockage of vision to the front only",
+      "B": "There must be no blockage of vision to the left and right side mirrors only",
+      "C": "There is no blockage of the driver’s vision to the front or rear",
+      "D": "There must be no blockage of the rearview mirror from passenger luggage only"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 104,
+    "question": "What are the exact requirements regarding seat belts before moving off?",
+    "options": {
+      "A": "Only the driver’s seat belt must function and be worn.",
+      "B": "Rear seat belts are optional if the journey distance is less than 5 kilometers.",
+      "C": "All seat belts must function properly, and the driver and every passenger must properly wear them.",
+      "D": "Seat belts are only mandatory for passengers under the age of 12."
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 105,
+    "question": "What must a driver check on the vehicle’s dashboard and screens prior to departure?",
+    "options": {
+      "A": "Ensure that the journey recording system has completed a self-calibration check",
+      "B": "Verify that all indications shown in dashboard/screens, oil temperature gauge (if any) and battery voltage meter (if any) are working and indicating normal levels",
+      "C": "Ensure that the dashboard lights are set to maximum brightness",
+      "D": "Confirm that no warnings are active on the platform dispatch screen"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 106,
+    "question": "In addition to passenger safety checks, what physical status must be verified for all vehicle doors before departure?",
+    "options": {
+      "A": "They are locked electronically by the driver’s control panel",
+      "B": "They are wiped clean and disinfected",
+      "C": "All vehicle doors are securely closed",
+      "D": "They are fitted with safety decals"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 107,
+    "question": "Under current legislation, what is the age and height threshold below which a child riding in a private car (or ride-hailing vehicle) must use a Child Restraining Device (CRD)?",
+    "options": {
+      "A": "Aged below six, regardless of height",
+      "B": "Aged below eight, except those who reach a body height of 1.35 metres",
+      "C": "Aged below ten, except those who reach a body height of 1.50 metres",
+      "D": "Aged below twelve, except those who reach a body height of 1.20 metres"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 108,
+    "question": "Under current legislation, what are the seat belt or CRD requirements for a child aged eight or above, or with a body height of at least 1.35 metres, in a private car?",
+    "options": {
+      "A": "They must use a CRD exclusively; normal seat belts are prohibited",
+      "B": "They must either use a CRD or wear a normal seat belt",
+      "C": "They are exempt from wearing any seat belt or CRD",
+      "D": "They must wear both a CRD and a normal seat belt simultaneously"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 109,
+    "question": "What is the maximum fine a private car or ride-hailing driver is liable to if they fail to comply with the statutory requirements on Child Restraining Devices (CRDs) for child passengers?",
+    "options": {
+      "A": "HK$ 1,000",
+      "B": "HK$ 1,500",
+      "C": "HK$ 2,000",
+      "D": "HK$ 5,000"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 110,
+    "question": "How is the provision of Child Restraining Devices (CRDs) and their associated surcharges managed on ride-hailing services?",
+    "options": {
+      "A": "Individual platforms are legally mandated to provide CRDs free of charge on all trips",
+      "B": "Individual licensed platforms may decide whether to offer trip options equipped with CRDs, and must inform passengers of any surcharge before the trip begins",
+      "C": "Platforms are strictly prohibited from charging surcharges for CRD-equipped vehicles",
+      "D": "The Transport Department provides standard CRDs to all ride-hailing vehicles directly"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 111,
+    "question": "Do the statutory requirements regarding the mandatory use of Child Restraining Devices (CRDs) for children under eight or below 1.35 metres apply to taxis?",
+    "options": {
+      "A": "Yes, they apply fully to all taxis",
+      "B": "No, the statutory requirements on the use of CRDs do not apply to taxis",
+      "C": "Yes, but only for urban taxis, not New Territories or Lantau taxis",
+      "D": "No, except when the taxi is pre-booked through a ride-hailing channel"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 112,
+    "question": "According to current legislation, if an adult passenger is traveling with a child who cannot sit steadily on a seat in a taxi, what must the adult passenger do?",
+    "options": {
+      "A": "Ensure the child wears a custom seat belt while the adult holds them",
+      "B": "The adult must wear a seat belt first and then hold the child on his/her lap",
+      "C": "Request a Child Restraining Device from the taxi driver",
+      "D": "The child must sit on the floor of the vehicle for safety"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 113,
+    "question": "What are the seat belt requirements in a taxi for a child passenger who is able to sit steadily on a seat?",
+    "options": {
+      "A": "They are prohibited from wearing a seat belt to avoid choking hazards",
+      "B": "They must be held on an adult's lap even if they can sit steadily",
+      "C": "They may wear a seat belt",
+      "D": "They must use a booster seat or CRD"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 114,
+    "question": "Current legislation stipulates that a driver must not place more than how many Mobile Telecommunications Devices (MTDs) in front of them while driving?",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 115,
+    "question": "What is the maximum permitted screen diagonal length for any Mobile Telecommunications Device (MTD) placed in front of a driver while driving?",
+    "options": {
+      "A": "15 centimetres",
+      "C": "19 centimetres",
+      "D": "21 centimetres",
+      "B": "17 centimetres"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 116,
+    "question": "Which of the following is a statutory requirement regarding the positioning of Mobile Telecommunications Devices (MTDs) placed in front of a driver?",
+    "options": {
+      "A": "They must be placed directly in the center of the windshield for easy viewing",
+      "B": "The devices must not obstruct the driver’s direct vision or indirect vision through any mirror, device or monitor unit",
+      "C": "They must be mounted at eye level",
+      "D": "They must be hidden from the passengers' view"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 117,
+    "question": "Under what condition is a driver strictly prohibited from holding a Mobile Telecommunications Device (MTD) in their hand or between their head and shoulder?",
+    "options": {
+      "A": "Only when the vehicle is traveling above 50 km/h",
+      "B": "When the vehicle is in motion",
+      "C": "Only when carrying more than three passengers",
+      "D": "When the vehicle is parked at a taxi stand"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 118,
+    "question": "What is the maximum fine an offending driver is liable to for violating the statutory regulations regarding Mobile Telecommunications Devices (MTDs)?",
+    "options": {
+      "A": "HK$ 1,000",
+      "B": "HK$ 1,500",
+      "C": "HK$ 2,000",
+      "D": "HK$ 3,000"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 119,
+    "question": "If a driver uses a Mobile Telecommunications Device (MTD) while driving in such a way as to affect their driving, under what circumstance can they be charged with 'dangerous driving' or 'careless driving'?",
+    "options": {
+      "A": "Only if their driving has directly caused a traffic accident",
+      "B": "Irrespective of whether their driving has caused a traffic accident",
+      "C": "Only if they were speeding at the time",
+      "D": "Only if they exceeded the limit of two devices"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 120,
+    "question": "What is the rule regarding the consumption of alcoholic beverages or taking of medications by drivers prior to driving?",
+    "options": {
+      "A": "They may consume small amounts of alcohol if their driving is unaffected",
+      "B": "They must not consume alcoholic beverages or take medications prior to driving, as even small amounts can increase fatigue and significantly impair driving ability",
+      "C": "Only prescription medications are prohibited prior to driving",
+      "D": "Alcohol is permitted if taken with heavy meals to delay absorption"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 121,
+    "question": "If a driver feels unwell and seeks medical attention, what must they specifically ask their doctor regarding prescribed medications?",
+    "options": {
+      "A": "The total cost of the prescription",
+      "B": "Whether the medications are covered by insurance",
+      "C": "Whether any prescribed medications have side effects that might affect driving",
+      "D": "The chemical formulation of the drug"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 122,
+    "question": "What two immediate actions can a driver take to stay alert if they begin to feel tired while driving?",
+    "options": {
+      "A": "Turn up the radio and close all vents",
+      "B": "Open a window to breathe fresh air or turn down the air conditioning temperature",
+      "C": "Drink hot water or adjust the steering wheel height",
+      "D": "Increase speed to reach the destination faster"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 123,
+    "question": "Where are drivers strictly instructed NOT to stop to pull over and rest if they feel tired?",
+    "options": {
+      "A": "At a designated lay-by",
+      "B": "On highways or roads with fast-moving traffic",
+      "C": "At a public car park",
+      "D": "In non-restricted zones"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 124,
+    "question": "To maintain proper posture and prevent strain while driving, what should a driver make full use of for physical support?",
+    "options": {
+      "A": "The center armrest",
+      "B": "The door handles",
+      "C": "The seat backrest",
+      "D": "The steering wheel column"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 125,
+    "question": "What physical activity should a driver perform during appropriate short breaks to promote blood circulation and prevent muscle strain?",
+    "options": {
+      "A": "Deep breathing exercises inside the closed vehicle",
+      "B": "Stretching exercises",
+      "C": "High-intensity cardio exercises",
+      "D": "Isometric neck resistance training"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 126,
+    "question": "How should a driver handle passenger complaints and avoid verbal arguments during service?",
+    "options": {
+      "A": "Decline service immediately and ask the passenger to exit the vehicle",
+      "B": "Stay calm when facing passenger complaints, and listen patiently—never getting into verbal arguments with passengers",
+      "C": "Counter the complaint by explaining the operator's difficulties",
+      "D": "Report the passenger directly to the Transport Department via terminal"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 127,
+    "question": "Based on which passenger characteristics are drivers strictly prohibited from displaying impolite behaviour or refusing service?",
+    "options": {
+      "A": "Destination and payment method only",
+      "B": "Nationality, race, gender, age, or physical condition (such as persons with disabilities)",
+      "C": "Baggage size and type of currency offered",
+      "D": "Platform rating and frequency of travel"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 128,
+    "question": "Under current legislation, what is the only category of items that is permitted to be carried on a taxi?",
+    "options": {
+      "A": "Commercial merchandise",
+      "B": "No goods other than personal hand baggage shall be carried on a taxi",
+      "C": "Securely boxed agricultural produce",
+      "D": "Construction tools and lightweight hardware"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 129,
+    "question": "Which of the following is explicitly excluded from the legal definition of 'personal hand baggage' in a taxi?",
+    "options": {
+      "A": "Any items packed in plastic bags",
+      "B": "Any goods which are of a dangerous or offensive nature; and any goods which are not securely wrapped",
+      "C": "Loose umbrellas and dry coats",
+      "D": "Soft backpacks and folded paper bags"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 130,
+    "question": "What is the maximum total dimensional limit (length + width + height) for a piece of light personal baggage to be carried free of charge inside a taxi’s passenger compartment?",
+    "options": {
+      "A": "100 cm",
+      "B": "120 cm",
+      "C": "140 cm",
+      "D": "160 cm"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 131,
+    "question": "Under what condition may a taxi driver charge a baggage surcharge for a piece of passenger baggage?",
+    "options": {
+      "A": "For any piece of baggage, regardless of where it is placed",
+      "B": "For every piece of baggage that is placed inside the luggage compartment a baggage surcharge regardless of its dimensions",
+      "C": "Only if the baggage exceeds 140 cm in total dimensions",
+      "D": "Only if the baggage weighs more than 20 kg"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 132,
+    "question": "What are the carriage rules and surcharges for wheelchairs, crutches, and other mobility aids carried by a taxi passenger with disabilities?",
+    "options": {
+      "A": "They are subject to a standard baggage surcharge if placed in the luggage compartment",
+      "B": "They can be carried free of charge regardless of their dimensions and where they are placed",
+      "C": "They are only carried free of charge if they are folded and placed inside the passenger cabin",
+      "D": "They are subject to platform fees if total dimensions exceed 140 cm"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 133,
+    "question": "Who determines the regulations on personal hand luggage and the applicability of surcharges for ride-hailing vehicles?",
+    "options": {
+      "A": "The Transport Department",
+      "B": "Individual licensed platforms",
+      "C": "The Commissioner for Transport",
+      "D": "The driver of the ride-hailing vehicle independently"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 134,
+    "question": "According to the regulations, what authority governs the carriage of animals and birds in a taxi and the terms of their carriage?",
+    "options": {
+      "A": "It is strictly prohibited by law",
+      "B": "It is at the sole discretion of the driver of the vehicle",
+      "C": "It is determined by the taxi fleet licensee",
+      "D": "It is subject to a flat fee mandated by the Transport Department"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "number": 135,
+    "question": "Who is legally responsible for paying for any damage to a taxi caused by an animal or bird carried on the vehicle?",
+    "options": {
+      "A": "The driver of the vehicle",
+      "B": "The taxi licence holder",
+      "C": "Any person who is permitted to take any animal or bird on a vehicle",
+      "D": "The Transport Department's insurance fund"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "number": 136,
+    "question": "How is the carriage of animals or birds managed on ride-hailing vehicles?",
+    "options": {
+      "A": "Individual licensed platforms may decide whether passengers are permitted to bring animals or birds on board, and shall agree on the relevant arrangements with passengers before the journey begins",
+      "B": "It is left to the sole discretion of the driver at the pick-up point",
+      "C": "Animals and birds are strictly banned from all ride-hailing vehicles",
+      "D": "Guide dogs are subject to a surcharge set by the Commissioner"
+    },
+    "correctAnswer": "A"
+  }
+]

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK TAXI COMBINED WRITTEN TEST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h2>HK Taxi Combined Written Test</h2>
+
+        <!-- Active driving progress runway -->
+        <div class="track-wrapper">
+            <div class="zone-labels">
+                <span>Start Zone</span>
+                <span>Exam Terminal</span>
+            </div>
+            <div class="runway-strip">
+                <div class="runway-progress-fill" id="runway-fill"></div>
+                <div class="taxi-sprite" id="taxi-element">🚖</div>
+            </div>
+        </div>
+
+        <!-- Metric counter scoreboard matrix -->
+        <div class="counters-grid">
+            <div class="counter-box">
+                <p>Correct Ans</p>
+                <span id="correct-ans-label">0</span>
+            </div>
+            <div class="counter-box">
+                <p>Incorrect Ans</p>
+                <span id="incorrect-ans-label">0</span>
+            </div>
+            <div class="counter-box">
+                <p>Skipped</p>
+                <span id="skipped-ans-label">0</span>
+            </div>
+        </div>
+
+        <!-- Main Exam Terminal Card -->
+        <div class="exam-terminal-card" id="terminal-sheet">
+            <div class="part-title-tag" id="part-header-label">Part: Regulations</div>
+            <div class="meta-index-label" id="index-meta-text">Loading question...</div>
+            <div class="question-text-area" id="question-render-box">Loading simulator engines...</div>
+
+            <!-- Choice options stack -->
+            <div class="options-wrapper-stack">
+                <button class="choice-row-btn" id="btn-choice-A" onclick="processSelection('A')">
+                    <span class="choice-badge">A</span>
+                    <span id="text-choice-A">Option A</span>
+                </button>
+                <button class="choice-row-btn" id="btn-choice-B" onclick="processSelection('B')">
+                    <span class="choice-badge">B</span>
+                    <span id="text-choice-B">Option B</span>
+                </button>
+                <button class="choice-row-btn" id="btn-choice-C" onclick="processSelection('C')">
+                    <span class="choice-badge">C</span>
+                    <span id="text-choice-C">Option C</span>
+                </button>
+                <button class="choice-row-btn" id="btn-choice-D" onclick="processSelection('D')">
+                    <span class="choice-badge">D</span>
+                    <span id="text-choice-D">Option D</span>
+                </button>
+            </div>
+
+            <!-- Explanation Feedback Panel -->
+            <div class="explanation-box" id="feedback-explanation-box" style="display: none;">
+                <div class="explanation-status" id="explanation-status-title"></div>
+                <p class="explanation-body" id="explanation-text-body"></p>
+            </div>
+
+            <!-- Navigation Bar -->
+            <div class="hub-navigation-bar">
+                <button class="reset-trigger-link" onclick="location.reload()">* Reset</button>
+                <div class="nav-buttons-group">
+                    <button class="nav-action-btn secondary-btn" id="prev-btn-node" onclick="regressStepFlow()">← Prev</button>
+                    <button class="nav-action-btn primary-btn" id="forward-btn-node" onclick="advanceStepFlow()">Next →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
