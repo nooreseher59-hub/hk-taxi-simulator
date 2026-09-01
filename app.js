@@ -4,6 +4,10 @@ let quizDataPool = [];
 let quizActiveIndex = 0;
 let userAnswersTrack = [];
 
+function redirectToStripe() {
+    window.location.href = STRIPE_PAYMENT_LINK;
+}
+
 // Global trigger for manual button clicks
 async function triggerClerkSignIn() {
     if (window.Clerk) {
@@ -17,19 +21,22 @@ async function triggerClerkSignIn() {
 }
 
 window.addEventListener('load', async () => {
-    // Poll for Clerk SDK script readiness
+    // Wait for the Clerk script to attach to window
     let attempts = 0;
-    while (!window.Clerk && attempts < 20) {
+    while (!window.Clerk && attempts < 30) {
         await new Promise(resolve => setTimeout(resolve, 100));
         attempts++;
     }
 
     if (!window.Clerk) {
-        console.error("Clerk SDK failed to load.");
+        console.error("Clerk SDK failed to load from CDN.");
         return;
     }
 
-    await window.Clerk.load();
+    // Initialize Clerk if not already loaded
+    if (!window.Clerk.loaded) {
+        await window.Clerk.load();
+    }
 
     if (window.Clerk.user) {
         const isPaidMember = window.Clerk.user.publicMetadata?.isPaid === true;
@@ -49,20 +56,12 @@ window.addEventListener('load', async () => {
             
             window.Clerk.mountUserButton(document.getElementById('paywall-user-button'));
         }
-} else {
-            // Not signed in -> display auth screen
-            document.getElementById('auth-container').style.display = 'block';
-            document.getElementById('paywall-container').style.display = 'none';
-            document.getElementById('app-container').style.display = 'none';
-
-            const container = document.getElementById('sign-in-button-wrapper');
-            try {
-                window.Clerk.mountSignIn(container);
-            } catch (e) {
-                console.log("Using modal fallback");
-                window.Clerk.openSignIn();
-            }
-        }
+    } else {
+        // Not signed in -> display auth screen and let button handle modal trigger
+        document.getElementById('auth-container').style.display = 'block';
+        document.getElementById('paywall-container').style.display = 'none';
+        document.getElementById('app-container').style.display = 'none';
+    }
 });
 
 // --- QUIZ ENGINE FUNCTIONS ---
