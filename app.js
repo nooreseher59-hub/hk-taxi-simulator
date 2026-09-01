@@ -4,6 +4,15 @@ let quizDataPool = [];
 let quizActiveIndex = 0;
 let userAnswersTrack = []; 
 
+// Global trigger for manual button clicks
+function triggerClerkSignIn() {
+    if (window.Clerk) {
+        window.Clerk.openSignIn();
+    } else {
+        alert("Authentication engine is still loading. Please wait a second and try again.");
+    }
+}
+
 window.addEventListener('load', async () => {
     // Poll for Clerk SDK script readiness
     let attempts = 0;
