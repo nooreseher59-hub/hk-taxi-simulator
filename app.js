@@ -5,16 +5,20 @@ let quizActiveIndex = 0;
 let userAnswersTrack = []; 
 
 window.addEventListener('load', async () => {
-    // 1. Ensure the Clerk script has loaded on the window object
+    // Poll for Clerk in case the CDN script takes a second to register
+    let attempts = 0;
+    while (!window.Clerk && attempts < 20) {
+        await new Promise(resolve => setTimeout(resolve, 100));
+        attempts++;
+    }
+
     if (!window.Clerk) {
-        console.error("Clerk SDK script not found.");
+        console.error("Clerk SDK script failed to load from CDN.");
         return;
     }
 
-    // 2. Initialize Clerk
     await window.Clerk.load();
 
-    // 3. Handle auth state
     if (window.Clerk.user) {
         const isPaidMember = window.Clerk.user.publicMetadata?.isPaid === true;
 
@@ -26,18 +30,14 @@ window.addEventListener('load', async () => {
             window.Clerk.mountUserButton(document.getElementById('user-button'));
             bootUpQuizEngine();
         } else {
-            // Logged in but hasn't paid -> show paywall screen
             document.getElementById('auth-container').style.display = 'none';
             document.getElementById('paywall-container').style.display = 'block';
             document.getElementById('app-container').style.display = 'none';
             window.Clerk.mountUserButton(document.getElementById('paywall-user-button'));
         }
     } else {
-        // Not signed in -> hide app & immediately open sign-in modal
         document.getElementById('app-container').style.display = 'none';
         document.getElementById('paywall-container').style.display = 'none';
-        
-        // Open Clerk modal
         window.Clerk.openSignIn();
     }
 });

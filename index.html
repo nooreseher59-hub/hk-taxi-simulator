@@ -1,86 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HK TAXI COMBINED WRITTEN TEST</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HK TAXI COMBINED WRITTEN TEST</title>
+  <link rel="stylesheet" href="style.css">
+  
+<script
+  defer
+  crossorigin="anonymous"
+  data-clerk-publishable-key="pk_test_c3Rlcmxpb20..."
+  src="https://cdn.jsdelivr.net/npm/@clerk/clerk-js@latest/dist/clerk.browser.js">
+</script>
+<script src="app.js" defer></script>
+
 </head>
 <body>
-    <div class="app-container">
-        <h2>HK Taxi Combined Written Test</h2>
 
-        <!-- Active driving progress runway -->
-        <div class="track-wrapper">
-            <div class="zone-labels">
-                <span>Start Zone</span>
-                <span>Exam Terminal</span>
-            </div>
-            <div class="runway-strip">
-                <div class="runway-progress-fill" id="runway-fill"></div>
-                <div class="taxi-sprite" id="taxi-element">🚖</div>
-            </div>
-        </div>
+  <!-- PUBLIC SCREEN: Displayed to Unauthenticated Users -->
+  <div id="auth-container" class="app-container" style="text-align: center; padding: 40px 20px;">
+    <h2>HK Taxi Exam Simulator</h2>
+    <p style="color: #94a3b8; margin-bottom: 24px;">Please sign in or register to access the exam portal.</p>
+    <div id="sign-in-button-wrapper"></div>
+  </div>
 
-        <!-- Metric counter scoreboard matrix -->
-        <div class="counters-grid">
-            <div class="counter-box">
-                <p>Correct Ans</p>
-                <span id="correct-ans-label">0</span>
-            </div>
-            <div class="counter-box">
-                <p>Incorrect Ans</p>
-                <span id="incorrect-ans-label">0</span>
-            </div>
-            <div class="counter-box">
-                <p>Skipped</p>
-                <span id="skipped-ans-label">0</span>
-            </div>
-        </div>
+  <!-- PAYWALL SCREEN: Displayed to Logged-in Users Without an Active License -->
+  <div id="paywall-container" class="app-container" style="display: none; text-align: center; padding: 40px 20px;">
+    <h2>Subscription Required</h2>
+    <p style="color: #94a3b8; margin-bottom: 24px;">Your account is authenticated, but you do not have an active simulator pass.</p>
+    <button class="nav-action-btn primary-btn" style="width: 100%; max-width: 300px; margin-bottom: 12px;" onclick="redirectToStripe()">
+      Upgrade Now
+    </button>
+    <div id="paywall-user-button" style="margin-top: 16px;"></div>
+  </div>
 
-        <!-- Main Exam Terminal Card -->
-        <div class="exam-terminal-card" id="terminal-sheet">
-            <div class="part-title-tag" id="part-header-label">Part: Regulations</div>
-            <div class="meta-index-label" id="index-meta-text">Loading question...</div>
-            <div class="question-text-area" id="question-render-box">Loading simulator engines...</div>
-
-            <!-- Choice options stack -->
-            <div class="options-wrapper-stack">
-                <button class="choice-row-btn" id="btn-choice-A" onclick="processSelection('A')">
-                    <span class="choice-badge">A</span>
-                    <span id="text-choice-A">Option A</span>
-                </button>
-                <button class="choice-row-btn" id="btn-choice-B" onclick="processSelection('B')">
-                    <span class="choice-badge">B</span>
-                    <span id="text-choice-B">Option B</span>
-                </button>
-                <button class="choice-row-btn" id="btn-choice-C" onclick="processSelection('C')">
-                    <span class="choice-badge">C</span>
-                    <span id="text-choice-C">Option C</span>
-                </button>
-                <button class="choice-row-btn" id="btn-choice-D" onclick="processSelection('D')">
-                    <span class="choice-badge">D</span>
-                    <span id="text-choice-D">Option D</span>
-                </button>
-            </div>
-
-            <!-- Explanation Feedback Panel -->
-            <div class="explanation-box" id="feedback-explanation-box" style="display: none;">
-                <div class="explanation-status" id="explanation-status-title"></div>
-                <p class="explanation-body" id="explanation-text-body"></p>
-            </div>
-
-            <!-- Navigation Bar -->
-            <div class="hub-navigation-bar">
-                <button class="reset-trigger-link" onclick="location.reload()">* Reset</button>
-                <div class="nav-buttons-group">
-                    <button class="nav-action-btn secondary-btn" id="prev-btn-node" onclick="regressStepFlow()">← Prev</button>
-                    <button class="nav-action-btn primary-btn" id="forward-btn-node" onclick="advanceStepFlow()">Next →</button>
-                </div>
-            </div>
-        </div>
+  <!-- APP INTERFACE: Accessible Only After Login and Payment Verification -->
+  <div id="app-container" class="app-container" style="display: none;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+      <h2>HK Taxi Combined Written Test</h2>
+      <div id="user-button"></div>
     </div>
 
-    <script src="app.js"></script>
+    <!-- Active driving progress runway -->
+    <div class="track-wrapper">
+      <div class="zone-labels">
+        <span>Start Zone</span>
+        <span>Exam Terminal</span>
+      </div>
+      <div class="runway-strip">
+        <div class="runway-progress-fill" id="runway-fill"></div>
+        <div class="taxi-sprite" id="taxi-element">🚖</div>
+      </div>
+    </div>
+
+    <!-- Metric counter scoreboard matrix -->
+    <div class="counters-grid">
+      <div class="counter-box">
+        <p>Correct Ans</p>
+        <span id="correct-ans-label">0</span>
+      </div>
+      <div class="counter-box">
+        <p>Incorrect Ans</p>
+        <span id="incorrect-ans-label">0</span>
+      </div>
+      <div class="counter-box">
+        <p>Skipped</p>
+        <span id="skipped-ans-label">0</span>
+      </div>
+    </div>
+
+    <!-- Main Exam Terminal Card -->
+    <div class="exam-terminal-card" id="terminal-sheet">
+      <div class="part-title-tag" id="part-header-label">Part: Regulations</div>
+      <div class="meta-index-label" id="index-meta-text">Loading question...</div>
+      <div class="question-text-area" id="question-render-box">Loading simulator engines...</div>
+
+      <!-- Choice options stack -->
+      <div class="options-wrapper-stack">
+        <button class="choice-row-btn" id="btn-choice-A" onclick="processSelection('A')">
+          <span class="choice-badge">A</span>
+          <span id="text-choice-A">Option A</span>
+        </button>
+        <button class="choice-row-btn" id="btn-choice-B" onclick="processSelection('B')">
+          <span class="choice-badge">B</span>
+          <span id="text-choice-B">Option B</span>
+        </button>
+        <button class="choice-row-btn" id="btn-choice-C" onclick="processSelection('C')">
+          <span class="choice-badge">C</span>
+          <span id="text-choice-C">Option C</span>
+        </button>
+        <button class="choice-row-btn" id="btn-choice-D" onclick="processSelection('D')">
+          <span class="choice-badge">D</span>
+          <span id="text-choice-D">Option D</span>
+        </button>
+      </div>
+
+      <!-- Explanation Feedback Panel -->
+      <div class="explanation-box" id="feedback-explanation-box" style="display: none;">
+        <div class="explanation-status" id="explanation-status-title"></div>
+        <p class="explanation-body" id="explanation-text-body"></p>
+      </div>
+
+      <!-- Navigation Bar -->
+      <div class="hub-navigation-bar">
+        <button class="reset-trigger-link" onclick="location.reload()">* Reset</button>
+        <div class="nav-buttons-group">
+          <button class="nav-action-btn secondary-btn" id="prev-btn-node" onclick="regressStepFlow()">← Prev</button>
+          <button class="nav-action-btn primary-btn" id="forward-btn-node" onclick="advanceStepFlow()">Next →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
