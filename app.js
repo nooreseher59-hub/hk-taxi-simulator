@@ -5,36 +5,42 @@ let quizActiveIndex = 0;
 let userAnswersTrack = []; 
 
 window.addEventListener('load', async () => {
-    if (window.Clerk) {
-        await window.Clerk.load();
+    // 1. Ensure the Clerk script has loaded on the window object
+    if (!window.Clerk) {
+        console.error("Clerk SDK script not found.");
+        return;
+    }
 
-        if (window.Clerk.user) {
-            const isPaidMember = window.Clerk.user.publicMetadata?.isPaid === true;
+    // 2. Initialize Clerk
+    await window.Clerk.load();
 
-            if (isPaidMember) {
-                document.getElementById('auth-container').style.display = 'none';
-                document.getElementById('paywall-container').style.display = 'none';
-                document.getElementById('app-container').style.display = 'block';
+    // 3. Handle auth state
+    if (window.Clerk.user) {
+        const isPaidMember = window.Clerk.user.publicMetadata?.isPaid === true;
 
-                window.Clerk.mountUserButton(document.getElementById('user-button'));
-                bootUpQuizEngine();
-            } else {
-                // Logged in but hasn't paid -> show paywall page
-                document.getElementById('auth-container').style.display = 'none';
-                document.getElementById('paywall-container').style.display = 'block';
-                window.Clerk.mountUserButton(document.getElementById('paywall-user-button'));
-            }
+        if (isPaidMember) {
+            document.getElementById('auth-container').style.display = 'none';
+            document.getElementById('paywall-container').style.display = 'none';
+            document.getElementById('app-container').style.display = 'block';
+
+            window.Clerk.mountUserButton(document.getElementById('user-button'));
+            bootUpQuizEngine();
         } else {
-            // Not signed in -> automatically pop up the login modal immediately
-            window.Clerk.openSignIn();
+            // Logged in but hasn't paid -> show paywall screen
+            document.getElementById('auth-container').style.display = 'none';
+            document.getElementById('paywall-container').style.display = 'block';
+            document.getElementById('app-container').style.display = 'none';
+            window.Clerk.mountUserButton(document.getElementById('paywall-user-button'));
         }
+    } else {
+        // Not signed in -> hide app & immediately open sign-in modal
+        document.getElementById('app-container').style.display = 'none';
+        document.getElementById('paywall-container').style.display = 'none';
+        
+        // Open Clerk modal
+        window.Clerk.openSignIn();
     }
 });
-
-function redirectToStripe() {
-    const userId = window.Clerk.user ? window.Clerk.user.id : '';
-    window.location.href = `${STRIPE_PAYMENT_LINK}?client_reference_id=${userId}`;
-}
 
 // --- QUIZ ENGINE FUNCTIONS ---
 async function bootUpQuizEngine() {
